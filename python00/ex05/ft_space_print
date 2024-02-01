@@ -1,0 +1,9 @@
+def ft_space_print():
+    s = input("Inser a string:")
+    l = len(s)
+    while(20 > l):
+        print(" " , end="")
+        l+=1
+    print(s[-20:])
+
+ft_space_print()
